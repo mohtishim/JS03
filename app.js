@@ -123,3 +123,56 @@
 // else{
 //     alert("Unknown city");
 // }
+
+
+// Chapter 13 (Testing sets of conditions)
+
+// Q1
+// var a = 1;
+// var b = 1;
+// var c = 2;
+// var d = 2;
+
+// if (a === b && c === d ){
+//     console.log("Both conditions are true");
+// }
+
+// Q2
+// var a = 1;
+// var b = 1;
+// var c = 2;
+// var d = 3;
+
+// if (a===b || c!=d){
+//     console.log("either or both are true");
+// }
+
+// Q3
+// var _name = prompt("Enter name");
+// var age = +prompt("Enter age");
+
+// if ((_name == "hamza" || _name == "arsalan") && age <= 60){
+//     alert("True condition");
+// }
+// else{
+//     alert("False condition");
+// }
+
+// Q4
+// var a = 20;
+// var b = 30;
+
+// if (a > b){
+//     alert("A is greater than B");
+// }
+// else if (b > a){
+//     alert("B is greater than A");
+// }
+
+// Q5
+// var fName = prompt("Enter First Name");
+// var lName = prompt("Enter Last Name");
+
+// if (fName.toLowerCase()=="mohtishim" && lName.toLowerCase()=="mohiuddin"){
+//     alert("Welcome Mohtishim Sir");
+// }
